@@ -1,0 +1,231 @@
+class car :
+
+    def __init__(self , body , engin , tyre):
+        self.body = body
+        self.engin = engin
+        self.tyre = tyre
+
+    def milage (self):
+        print("milage of this car ")
+
+c = car("sold" , "v6" , "radial")
+print(c)
+
+class tata(car):
+    pass
+
+t = tata("solid1" , "v8" , "radial1")
+print(t)
+print(t.milage())
+
+
+
+class bank :
+    def transaction(self) :
+        print("total transaction value ")
+    def account_opening(self):
+        print("this will show you your account open status ")
+    def deposite(self):
+        print("this will show your deposited amount")
+
+class HDFC_bank(bank):
+    def hdfc_to_icici(self):
+        print("this will show you all the transaction happend to icici throuhg hdfc")
+
+class icici(HDFC_bank):
+    pass
+
+i = icici()
+i.hdfc_to_icici()
+i.deposite()
+i.account_opening()
+i.transaction()
+
+
+class bank :
+    def transaction(self) :
+        print("total transaction value ")
+    def account_opening(self):
+        print("this will show you your account open status ")
+    def deposite(self):
+        print("this will show your deposited amount")
+
+
+class HDFC_bank:
+    def hdfc_to_icici(self):
+        print("this will show you all the transaction happend to icici throuhg hdfc")
+
+class icici(bank,HDFC_bank):
+    pass
+
+i = icici()
+i.hdfc_to_icici()
+i.transaction()
+i.deposite()
+i.account_opening()
+
+
+class bank :
+    def transaction(self) :
+        print("total transaction value ")
+    def account_opening(self):
+        print("this will show you your account open status ")
+    def deposite(self):
+        print("this will show your deposited amount")
+    def test(self):
+        print("this is a test methond form bank class ")
+
+
+class HDFC_bank:
+    def hdfc_to_icici(self):
+        print("this will show you all the transaction happend to icici throuhg hdfc")
+    def test(self):
+        print("this is a test method form hdfc bank ")
+
+class ineron_bank:
+    def account_status_icici(self):
+        print("print a account status in icici ")
+
+class icici(HDFC_bank , bank , ineron_bank):
+    pass
+
+i = icici()
+i.hdfc_to_icici()
+i.transaction()
+i.deposite()
+i.account_opening()
+i.test()
+i.account_status_icici()
+
+
+
+class ineuron:
+    def student(self):
+        print("print the details of all the students")
+    def achivers(self):
+        print("print the list of all the achiver ")
+    def hall_of_fame(self):
+        print("print everyone form hall of fame ")
+
+class ineuron_vision(ineuron):
+
+    def student(self):
+        print("these are the filters student list ")
+
+iv =  ineuron_vision()
+iv.student()
+
+
+
+class ineuron:
+    __students = "data science"
+
+    def studetns(self):
+        print(ineuron.__students)
+
+i = ineuron()
+i.studetns()
+#print(i.)
+
+list()
+
+
+
+class ineuron:
+    def __init__(self):
+        self.students1 = "data science "
+
+    def students(self):
+        print(self.students1)
+
+i = ineuron()
+i.students()
+i.students1 = "data analytics"
+i.students()
+
+class ineuron1:
+    def __init__(self):
+        self.__students1 = "data science "
+
+    def students(self):
+        print(self.__students1)
+    def student_change(self,new_value):
+        self.__students1 = new_value
+
+i1 = ineuron1()
+i1.students()
+i1.__students1 = "big data"
+i1.students()
+i1.student_change("sudhanshu")
+i1.students()
+
+
+
+class ineuron:
+    def students(self):
+        print("print a students details ")
+
+class class_type :
+    def students(self):
+        print("print the class type of students")
+
+def ineuron_external(a):
+    a.students()
+i =ineuron()
+j = class_type()
+ineuron_external(i)
+ineuron_external(j)
+
+def test(a,b):
+    return a+b
+print(test(3,4))
+print(test("sudhanshu" ,"kumar"))
+
+
+
+
+
+class
+object
+constructor
+inheritance
+private
+public
+protected
+abstraction
+encaptulations
+polymorpsim
+package
+modules
+method overrridding
+
+For all the concepts that we have discussed in our class point by point you have to write
+atleast 10 examples
+
+you have to make sure that use ineuron studnets , class , class type , number of courses
+, affiliates , blog, internship , jobs as a reference example
+
+
+sql workbench link windows - https://dev.mysql.com/downloads/windows/installer/8.0.html
+different system - https://dev.mysql.com/downloads/workbench/
+
+
+
+
+
+class ineuron1:
+    def __init__(self):
+        self.__students1 = "data science"
+
+    def students(self):
+        print(self.__students1)
+    def student_change(self, new_value):
+        self.__students1 = new_value
+
+i1 = ineuron1()
+i1.students()
+i1.__students1 = "big data"
+i1.students()
+i1.student_change("sudhanshu")
+i1.students()
+
