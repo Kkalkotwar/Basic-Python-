@@ -1,0 +1,19 @@
+INFO,2022-07-10 13:49:49,965 We are into the function
+INFO,2022-07-10 13:49:49,965 User entered the number 3 and 5
+INFO,2022-07-10 13:50:27,325 We are into the function
+INFO,2022-07-10 13:50:27,325 User entered the number 3 and 5
+INFO,2022-07-10 13:50:27,325 The division of two number is 0.6
+INFO,2022-07-10 13:50:47,427 We are into the function
+INFO,2022-07-10 13:50:47,427 User entered the number 3 and 0
+ERROR,2022-07-10 13:50:47,427 division by zero
+Traceback (most recent call last):
+  File "F:/My_Design/Data_Science/Data Science/Ineuron/Python/Pycharm Files/Logging/test2.py", line 11, in div
+    div = a/b
+ZeroDivisionError: division by zero
+INFO,2022-07-10 19:10:30,160 We are into the function
+INFO,2022-07-10 19:10:30,160 User entered the number 3 and 0
+ERROR,2022-07-10 19:10:30,196 division by zero
+Traceback (most recent call last):
+  File "F:/My_Design/Data_Science/Data Science/Ineuron/Python/Pycharm Files/Logging/test2.py", line 11, in div
+    div = a/b
+ZeroDivisionError: division by zero

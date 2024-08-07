@@ -1,0 +1,10 @@
+ERROR 2022-07-01 12:11:50,877 root  division by zero
+Traceback (most recent call last):
+  File "F:/My_Design/Data_Science/Data Science/Ineuron/Python/Pycharm Projects/Project_2/pythonProject123/test3.py", line 8, in devide
+    div = a /b
+ZeroDivisionError: division by zero
+ERROR 2022-07-10 13:39:02,372 root  division by zero
+Traceback (most recent call last):
+  File "F:/My_Design/Data_Science/Data Science/Ineuron/Python/Pycharm Files/Project_2/pythonProject123/test3.py", line 8, in devide
+    div = a /b
+ZeroDivisionError: division by zero
